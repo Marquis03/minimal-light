@@ -1,0 +1,18 @@
+- title: "MM-R5: MultiModal Reasoning-Enhanced ReRanker via Reinforcement Learning for Document Retrieval"
+  authors: Mingjun Xu*, Jinhan Dong*, <strong>Jue Hou*</strong>, Zehui Wang, Sihang Li, Zhifeng Gao, Renxin Zhong, Hengxing Cai†
+  conference_short: arXiv
+  conference: arXiv preprint arXiv:2506.12364
+  pdf: https://arxiv.org/pdf/2506.12364
+  code: https://github.com/i2vec/MM-R5
+  page:
+  image: ./assets/img/MM-R5.png
+  notes: Preprint
+- title: "Doc2SAR: A Synergistic Framework for High-Fidelity Extraction of Structure-Activity Relationships from Scientific Documents"
+  authors: Jiaxi Zhuang*, Kangning Li*, <strong>Jue Hou</strong>, Mingjun Xu, Zhifeng Gao, Hengxing Cai†
+  conference_short: arXiv
+  conference: arXiv preprint arXiv:2506.21625
+  pdf: https://arxiv.org/pdf/2506.21625
+  code: https://github.com/Jesse-zjx/Doc2SAR
+  page:
+  image: ./assets/img/Doc2SAR.png
+  notes: Preprint

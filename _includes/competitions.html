@@ -1,0 +1,16 @@
+{% if site.data.competitions and site.data.competitions.size > 0 %}
+
+<h2>Competitions</h2>
+
+<ul>
+  {% for comp in site.data.competitions %}
+  <li>
+    {{ comp.title }}
+    {% if comp.link %} [<a href="{{ comp.link }}">Link</a>]{% endif %}
+    {% if comp.code %} [<a href="{{ comp.code }}">Code</a>]{% endif %}
+    {% if comp.award %}, <strong>{{comp.award}}</strong>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+{% endif %}

@@ -1,0 +1,18 @@
+{% if site.data.services and site.data.services.size > 0 %}
+
+<h2>Services</h2>
+
+{% for group in site.data.services %}
+
+<h3>{{ group[0] }}</h3>
+
+<ul>
+  {% for position in group[1] %}
+  <li><a href="{{ position.link }}">
+      <autocolor>{{ position.title }}</autocolor>
+    </a></li>
+  {% endfor %}
+</ul>
+
+{% endfor %}
+{% endif %}
