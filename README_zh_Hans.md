@@ -161,6 +161,8 @@ google_analytics: UA-111540567-4
 
 <https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/publications.yml#L1-L18>
 
+<https://github.com/Marquis03/minimal-light/blob/d10c67374c5ad4c66247265fa8a411b6e1138609/_data/services.yml#L1-L13>
+
 如果你希望在不更改格式的情况下编辑这些列表，可以编辑 `_data/competitions.yml`、`_data/publications.yml` 和 `_data/services.yml`。
 
 ### 样式表（CSS）

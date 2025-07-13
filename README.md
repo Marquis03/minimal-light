@@ -161,6 +161,8 @@ There are three html files included in `_layouts/homepage.html`. They are `_incl
 
 <https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/publications.yml#L1-L18>
 
+<https://github.com/Marquis03/minimal-light/blob/d10c67374c5ad4c66247265fa8a411b6e1138609/_data/services.yml#L1-L13>
+
 If you hope to edit these lists without changing the format, you may edit `_data/competitions.yml`, `_data/publications.yml` and `_data/services.yml`.
 
 ### Stylesheet
