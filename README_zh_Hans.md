@@ -76,7 +76,7 @@ remote_theme: Marquis03/minimal-light
 
 如果你希望编辑任何文件（例如 `index.md`），仍需要将它们复制到你的仓库中。
 
-### 在本地使用Jekyll
+### 在本地使用 Jekyll
 
 首先，安装 [Ruby](https://www.ruby-lang.org/en/) 和 [Jekyll](https://jekyllrb.com/)。安装说明可以在这里找到：<https://jekyllrb.com/docs/installation/#guides>
 
@@ -156,6 +156,10 @@ google_analytics: UA-111540567-4
 ### 编辑包含文件
 
 在 `_layouts/homepage.html` 中包含了三个 HTML 文件，分别是 `_includes/competitions.html`、`_includes/publications.html` 和 `_includes/service.html`。如果你不希望包含这三个文件，可以删除 `_data/competitions.yml`、`_data/publications.yml` 和 `_data/services.yml` 中的相应行：
+
+<https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/competitions.yml#L1-L20>
+
+<https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/publications.yml#L1-L18>
 
 如果你希望在不更改格式的情况下编辑这些列表，可以编辑 `_data/competitions.yml`、`_data/publications.yml` 和 `_data/services.yml`。
 
