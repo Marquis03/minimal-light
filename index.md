@@ -17,3 +17,9 @@ I am a master student at ...
 - **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+
+{% include publications.html %}
+
+{% include services.html %}
+
+{% include competitions.html %}
