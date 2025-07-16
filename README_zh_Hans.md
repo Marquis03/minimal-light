@@ -146,7 +146,7 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+google_analytics: UA-XXXXXXXXX-X
 ```
 
 ### 编辑 `index.md`
@@ -155,13 +155,15 @@ google_analytics: UA-111540567-4
 
 ### 编辑包含文件
 
-在 `_layouts/homepage.html` 中包含了三个 HTML 文件，分别是 `_includes/competitions.html`、`_includes/publications.html` 和 `_includes/service.html`。如果你不希望包含这三个文件，可以删除 `_data/competitions.yml`、`_data/publications.yml` 和 `_data/services.yml` 中的相应行：
+在 `index.md` 中包含了三个 HTML 文件，分别是 `_includes/competitions.html`、`_includes/publications.html` 和 `_includes/services.html`。如果你不希望包含这三个文件，可以删除 `index.md` 中的相应行：
 
-<https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/competitions.yml#L1-L20>
+```markdown
+{% include publications.html %}
 
-<https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/publications.yml#L1-L18>
+{% include services.html %}
 
-<https://github.com/Marquis03/minimal-light/blob/d10c67374c5ad4c66247265fa8a411b6e1138609/_data/services.yml#L1-L13>
+{% include competitions.html %}
+```
 
 如果你希望在不更改格式的情况下编辑这些列表，可以编辑 `_data/competitions.yml`、`_data/publications.yml` 和 `_data/services.yml`。
 

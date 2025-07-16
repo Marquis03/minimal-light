@@ -146,8 +146,8 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-  ```
+google_analytics: UA-XXXXXXXXX-X
+```
 
 ### Edit `index.md`
 
@@ -155,13 +155,15 @@ Create `index.md` and add your personal information. It supports **Markdown** an
 
 ### Edit included files
 
-There are three html files included in `_layouts/homepage.html`. They are `_includes/competitions.html`, `_includes/publications.html` and `_includes/service.html`, respectively. If you don't hope to include these three files, you may remove the following lines in `_data/competitions.yml`, `_data/publications.yml` and `_data/services.yml`:
+There are three html files included in `index.md`. They are `_includes/competitions.html`, `_includes/publications.html` and `_includes/services.html`, respectively. If you don't hope to include these three files, you may remove the following lines in `index.md`:
 
-<https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/competitions.yml#L1-L20>
+```markdown
+{% include publications.html %}
 
-<https://github.com/Marquis03/minimal-light/blob/e7880e3fbcf28d52d35467db6e3580140fe0c650/_data/publications.yml#L1-L18>
+{% include services.html %}
 
-<https://github.com/Marquis03/minimal-light/blob/d10c67374c5ad4c66247265fa8a411b6e1138609/_data/services.yml#L1-L13>
+{% include competitions.html %}
+```
 
 If you hope to edit these lists without changing the format, you may edit `_data/competitions.yml`, `_data/publications.yml` and `_data/services.yml`.
 
