@@ -144,6 +144,10 @@ auto_dark_mode: true
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
 
+# Baidu Analytics ID
+# Please remove this if you don't use Baidu Analytics
+baidu_analytics:
+
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
 google_analytics: UA-XXXXXXXXX-X
